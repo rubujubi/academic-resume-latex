@@ -105,7 +105,7 @@
 \begin{tabular}{l}
 \textbf{\huge \textcolor{titleblue}{Ru Ji}} \\
 \\
-\end{tabular}  &  & \begin{tabular}{@{}rr@{}} \textcolor{titleblue}{\includegraphics[width=0.017\linewidth]{imgs/location(1).pdf}} 43 Aitken Circle, Markham, ON, L3R 7L3 &\\
+\end{tabular}  &  & \begin{tabular}{@{}rr@{}} \textcolor{titleblue}{\includegraphics[width=0.017\linewidth]{imgs/location(1).pdf}} 171 Carlton Road, Markham, ON, L3R 7L3 &\\
 {\includegraphics[width=0.017\linewidth]{imgs/email(1).pdf}} rubujubi@gmail.com   &\\ {\includegraphics[width=0.017\linewidth]{imgs/phone.pdf}} (+1)2267898362                  &                   \\
                
 \end{tabular}  \\ 
@@ -124,26 +124,7 @@
       \resumeItemNoBullet{Relevant Courses}{Computer Security and Privacy, Advanced Topics in Computer Systems, Advanced Topics in Language Design and Implementation, Advanced Research Topics in Multicore Programming}
     
     \resumeItemNoBullet{Thesis}{Finding False Assurance in Formal Verification of Software Systems, \href{https://uwspace.uwaterloo.ca/bitstream/handle/10012/20231/Ji_Ru.pdf?sequence=3}{\textcolor{linkblue}{link}}}
-    \resumeItemNoBullet{Thesis Abstract}{Formal verification plays a crucial role in enhancing the reliability of computing systems
-by mathematically checking the correctness of a program. Although recent years have
-witnessed lots of research and applications that optimize the formal verification process,
-the issue of false assurance persists in certain stages of the formal verification pipeline.
-The false assurance problem is critical as it can easily undermine months if not years of
-verification efforts.
-In this thesis, we first generalized the formal verification process. We then identified
-and analyzed specific stages susceptible to false assurance. Subsequently, a systematization
-of knowledge pertaining to the false assurance issues observed at these stages is provided,
-accompanied by a discussion on the existing defense mechanisms that are currently available.
-Specifically, we focused on the problem of formal specification incompleteness. We
-presented Fast in this thesis, which is short for Fuzzing-Assisted Specification Testing.
-Fast examines the spec for incompleteness issues in an automated way: it first locates
-spec gaps via mutation testing, i.e., by checking whether a code variant conforms to
-the original spec. If so, Fast further leverages the test suites to infer whether the gap
-is introduced by intention or by mistake. Depending on the codebase size, Fast may
-choose to generate code variants in either an enumerative or evolutionary way. Fast is
-applied to two open-source codebases that feature formal verification and helps to confirm
-13 and 21 blind spots in their spec respectively. This highlights the prevalence of spec
-incompleteness in real-world applications.}
+
     \resumeItemNoBullet{Supervisor}{Meng Xu, Assistant Professor}
     }
     
@@ -153,22 +134,7 @@ incompleteness in real-world applications.}
       \resumeItemNoBullet{Relevant Courses}{Fundamentals of financial security, Assembly language
 and reverse engineering, Modern cryptography, OS kernel, Probability and statistics, Fundamentals of web development, Software security, Network security}
       \resumeItemNoBullet{Thesis}{The Design and Implementation of a Tool for Detecting Scam Blockchain Addresses, \href{https://github.com/Kindhearted57/Bachelor_thesis/blob/main/bitcoin_abuse.pdf}{\textcolor{linkblue}{link}}}
-      \resumeItemNoBullet{Thesis Abstract}{The upsurge of the blockchain brought by Bitcoin continues to this day. Although there
-are a variety of new digital currencies, Bitcoin still attracts a large number of investors by its
-currency feature. However, at the same time, the anonymity of Bitcoin has also attracted fraudsters, who are widely using it as an important collection tool.
-Bitcoin is currently used in various types of fraud. 
-Therefore, investigating and tracking fraudulent crimes becomes imminent. In order to track fradulent behaviors efficiently, finding an effective way to detect fraudulent behaviors in Bitcoin network is of vital importance.
-In this thesis, we first collected and labeled a fraudulent
-address dataset. The dataset is consisted of Bitcoin addresses identified as fraudulent addresses and
-Bitcoin addresses considered to be benign addresses.
-We then explore one layer from these two parts of addresses to expand the dataset.
-With the dataset available, we firstly analyze some basic features of
-the dataset,
-and then we explore the validity of using classification approach to detect fraudulent addresses.
-Specifically, we firstly use traditional machine learning
-algorithms for classification, then we explore using graph neural network on this task. We use both GCN graph neural network and GAT graph attention network to classify the data. Besides the dataset we collected, we also use the public Elliptic data set for comparison. Our results show that the
-classifier trained on this dataset has an accuracy higher than 90\% on
-the test set.}
+
     }
     
     
@@ -177,9 +143,24 @@ the test set.}
 \shorterSection{\textcolor{titleblue}{Work Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Huawei Technologies Canada}{Markham, Canada} {Research Associate}{Feb 2022 - now}{
-\item{Working with the Formal Method team in formal verification of softwares.}
-    }
+      {Huawei Technologies Canada}{Markham, Canada} {Research Associate - Intelligent Testing Team}{Feb 2024 - now}{
+\item{\textbf{Model checking}: Modeled core logic of Huawei's Taurus multi-master Database using P language; uncovered edge cases and reported potential concurrency flaws}
+
+	\textbf{Key skills}: Model checking, P language, Formal verification, Distributed system, Concurrency modeling	  
+        \vspace{-5pt}
+        
+
+
+\item{\textbf{LLM for Model-based Testing}: Proposed generation optimizations that improved success rate by 50\% and acceptance rate by 33.4\%; Built an UML evaluation pipeline that achieved 90\% accuracy using LLMs.}
+
+	\textbf{Key skills}: Model-based testing, Test automation, UML, Prompt engineering, Python, LLM evaluation 	  
+        \vspace{-5pt}
+        
+
+\item{\textbf{LLM for Requirement Engineering} Developed an agentic system to auto-repair incomplete software requirement documents.}}
+
+	\textbf{Key skills}: Requirements engineering, Information retrieval, RAG, Agentic framework, LangGraph 	  
+        \vspace{-5pt}
   \resumeSubHeadingListEnd
 
 % %-----------ACADEMIC PROJECTS AND INTERNSHIPS-----------------
@@ -205,7 +186,7 @@ Security and Privacy (S\&P) 2023}, \href{https://ieeexplore.ieee.org/document/10
 	
 	In this paper we proposed a framework named FAST which can examine specification incompleteness by firstly locates specfication gaps and then leverages the test suites to infer whether the gap is introduced by intention or by mistake. FAST is applied to s2n-tls, Diem Payment Network and helped to confirm 13 and 21 blind spots in their specifications respectively.
 	
-	\textbf{*Real world findings} (Github \href{https://github.com/watssec/FAST}{\textcolor{linkblue}{repo}}): Diem Payment Network - Pull request \href{https://github.com/diem/diem/pull/10152}{\textcolor{linkblue}{1}} \href{https://github.com/diem/diem/pull/10176}{\textcolor{linkblue}{2}} \href{https://github.com/diem/diem/pull/10178}{\textcolor{linkblue}{3}}, s2n-tls - \href{https://mesquite-train-690.notion.site/Missing-specs-in-s2n-tls-90e3e6221e8b42ce84c788491cdc2a3f} {\textcolor{linkblue}{report}}
+	\textbf{*Real world findings} (Github \href{https://github.com/watssec/FAST}{\textcolor{linkblue}{repo}}): \textbf{Move} Diem Payment Network - Pull request \href{https://github.com/diem/diem/pull/10152}{\textcolor{linkblue}{1}} \href{https://github.com/diem/diem/pull/10176}{\textcolor{linkblue}{2}} \href{https://github.com/diem/diem/pull/10178}{\textcolor{linkblue}{3}}, s2n-tls - \href{https://mesquite-train-690.notion.site/Missing-specs-in-s2n-tls-90e3e6221e8b42ce84c788491cdc2a3f} {\textcolor{linkblue}{report}}
 	
 	\textbf{Key skills}: Mutation testing, Fuzzing, LLVM, Smart contracts, Formal verification, C++, Move, Rust
 	  
@@ -354,9 +335,9 @@ Security and Privacy (S\&P) 2023}, \href{https://ieeexplore.ieee.org/document/10
   \resumeSubHeadingListStart
 
      
-      \resumeItemNoBullet{Programming Languages}{Rust, Python, Move, Solidity, C/C++ }
-      \resumeItemNoBullet{Techniques}{LLVM, Linux, Pytorch}
-      \resumeItemNoBullet{Experienced Research Areas}{System Security, Blockchain Security, Fuzz Testing, Compiler Optimization, Programming Language Security}
+      \resumeItemNoBullet{Programming Languages}{Rust, Python, Move, Solidity, C/C++, P }
+      \resumeItemNoBullet{Framework and platforms}{LLVM, Linux, PyTorch, LangChain, LangGraph, HuggingFace}
+      \resumeItemNoBullet{Experienced topics}{System Security, Blockchain Security, Fuzz Testing, Compiler Optimization, Programming Language Security, LLM application, RAG, Model Checking}
 
      \resumeSubHeadingListEnd
 
